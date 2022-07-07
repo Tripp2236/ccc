@@ -5,20 +5,22 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { LandingComponent } from './landing/landing.component';
+
 
     // PRIMENG IMPORTS //
 /////////-------/////////
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
-
-
-
-
-/////////-------/////////
+import { MenubarModule } from 'primeng/menubar';
+import { ContextMenuModule } from 'primeng/contextmenu';
+import {ImageModule} from 'primeng/image';
+//////-////////////---------///////
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent
+    NavigationComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,10 @@ import { InputTextModule } from 'primeng/inputtext';
     ButtonModule,
     InputTextModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    MenubarModule,
+    ContextMenuModule,
+    ImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

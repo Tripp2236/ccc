@@ -1,0 +1,24 @@
+#love{
+    justify-content: center;
+    height: 40%;
+    width: 40%;
+}
+
+
+/* #mainImage {
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+} */
+
+#introduction{
+    justify-content: right;
+    /* text-align: center; */
+    padding-top: 1.2em;
+}
+
+#loving{
+    justify-content: left;
+    text-align: justify;
+    color: lightgray;
+}
