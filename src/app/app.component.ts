@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Charity Christain Church of Barberton';
+
+
+
+  // upper() {
+  //   this.title = this.title.toUpperCase();
+  // }
+
 }
