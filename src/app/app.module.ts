@@ -9,6 +9,9 @@ import { LandingComponent } from './landing/landing.component';
 
 
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,9 +21,10 @@ import { LandingComponent } from './landing/landing.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    
+    MatToolbarModule,
     AppRoutingModule,
     FormsModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
