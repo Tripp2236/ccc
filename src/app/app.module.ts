@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LandingComponent } from './landing/landing.component';
 
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -24,7 +25,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatToolbarModule,
     AppRoutingModule,
     FormsModule,
-    MatGridListModule
+    MatGridListModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

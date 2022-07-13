@@ -22,3 +22,11 @@
     text-align: justify;
     color: lightgray;
 }
+
+#mainVideoLandingPage {
+    padding: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}

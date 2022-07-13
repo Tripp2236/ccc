@@ -1,5 +1,10 @@
 body {
     font-family: 'Edu QLD Beginner', cursive;
-    background-color: bisque;
+    background-color: black;
+}
+
+#mainHeading {
+    text-align: center;
+    font-family: 'Edu QLD Beginner', cursive;
 }
 

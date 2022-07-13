@@ -6,8 +6,19 @@
 
 .navbar{
     justify-content: space-between;
+    background-color: black;
 }
 
 span{
     padding-right: 1rem;
+    color: white;
 }
+
+#headingTitle {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 1rem;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
