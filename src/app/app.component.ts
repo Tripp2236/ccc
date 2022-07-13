@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {ImageModule} from 'primeng/image';
+import * as AOS from 'aos';
 
 
 
@@ -10,5 +10,10 @@ import {ImageModule} from 'primeng/image';
 })
 export class AppComponent {
   title = 'Charity Christain Church';
+
+
+  ngOnInit() {
+    AOS.init();
+  }
 
 }

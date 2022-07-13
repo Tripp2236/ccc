@@ -23,9 +23,11 @@
               "src/assets"
             ],
             "styles": [
-             
+             "node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           },
           "configurations": {
             "production": {

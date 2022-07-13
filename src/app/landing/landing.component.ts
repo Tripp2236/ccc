@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {ContextMenuModule} from 'primeng/contextmenu';
-import {MenuItem} from 'primeng/api';
-import {ImageModule} from 'primeng/image';
 
 
-import { DomSanitizer } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
