@@ -1,24 +1,32 @@
- /* .nav {
+ .navbar {
     text-align: center;
     font-family: 'Edu QLD Beginner', cursive;
     justify-content: center;
-} */
-
-.navbar{
-    justify-content: space-between;
-    background-color: black;
 }
 
-span{
+
+#mainNav {
+    text-align: left;
+    justify-content: right;
+    font-size: xx-large; 
+}
+
+ span{
     padding-right: 1rem;
     color: white;
-}
+    
+    
+      
+      
+} 
 
 #headingTitle {
     text-align: center;
     color: white;
     font-size: 60px;
     padding-bottom: 1rem;
-    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Edu QLD Beginner', cursive;  
 }
+
+
 

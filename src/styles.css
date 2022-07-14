@@ -1,19 +1,15 @@
- /* #mainHeading {
-    text-align: center;
-    font-family: 'Edu QLD Beginner', cursive;
-    font-size: 3em;
-    color: white;
-}  */
 
-/* body {
+
+ .mat-typography{
     background-color: black;
-}  */
+}  
 
 
-html, body { height: 100%; }
-body { 
+ html, body {
+    height: 100%;
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
     padding: 2rem;
     background-color: black;
-}
+}  
+ 

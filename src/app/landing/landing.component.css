@@ -1,33 +1,54 @@
-#love{
-    justify-content: center;
-    height: 40%;
-    width: 40%;
-}
 
 
-/* #mainImage {
+#mainImage {
     justify-content: center;
     height: fit-content;
     width: fit-content;
-} */
+} 
 
-#introduction{
-    justify-content: right;
-    /* text-align: center; */
-    padding-top: 1.2em;
-}
 
-#loving{
-    justify-content: left;
-    text-align: justify;
-    color: lightgray;
-}
+
+
 
 #mainVideoLandingPage {
-    padding: 1.5rem;
     padding-left: 225px;
+    padding-top: 1.5rem;
     justify-content: center;
-    width: 75%;
-    height: auto;
+    background-color: black;
+    right: 0;
+    bottom: 0;
+    /* min-width: 100%;
+    min-height: 100%; */
+    left: 50%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+
+#grid_list_one {
+    background-color: black;
+
 }
 
+#main_intro {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 200;
+    font-style: bold;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#main_tile {
+    background-color: black;
+    text-decoration: white;
+}
+
+#div_one {
+    background-color: black;
+}

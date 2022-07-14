@@ -9,18 +9,21 @@ import { LandingComponent } from './landing/landing.component';
 
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 
+
 //
 // AOS ANIMATION IMPORT //
 //
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { LandingPageContentComponent } from './landing-page-content/landing-page-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    LandingComponent
+    LandingComponent,
+    LandingPageContentComponent,
   ],
   imports: [
     BrowserModule,

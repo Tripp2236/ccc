@@ -1,10 +1,10 @@
-body {
+html, body {
     font-family: 'Edu QLD Beginner', cursive;
-    background-color: black;
+    min-zoom: 50;
 }
 
-#mainHeading {
+/* #mainHeading {
     text-align: center;
     font-family: 'Edu QLD Beginner', cursive;
-}
+} */
 
