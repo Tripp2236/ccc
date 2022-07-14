@@ -1,0 +1,25 @@
+
+#grid_list_one {
+    background-color: black;
+
+}
+
+#main_intro {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 200;
+    font-style: bold;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#main_tile {
+    background-color: black;
+    text-decoration: white;
+}
+
+#div_one {
+    background-color: black;
+}

@@ -3,6 +3,17 @@ html, body {
     min-zoom: 50;
 }
 
+#headingTitle {
+
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        padding-bottom: 1rem;
+        font-family: 'Edu QLD Beginner', cursive;  
+
+    
+}
+
 /* #mainHeading {
     text-align: center;
     font-family: 'Edu QLD Beginner', cursive;
