@@ -13,17 +13,29 @@
 
  span{
     color: white;
-    padding-bottom: 1.5rem;
-    padding-right: 1.5rem;
-    text-decoration-thickness: thin;
+    
 } 
+
+.flexSpaceBetween {
+    justify-content: space-between;
+    flex: 1 2 auto;
+  }
 
 span:hover {
     text-decoration: none;
-    border-bottom: 1.5px solid rebeccapurple;
+    border-bottom: 1px solid rebeccapurple;
     transition: 400ms;
     cursor: pointer;
+
 }
+
+/* span:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 30%; 
+    padding-top: 20px; 
+} */
 
 
 

@@ -17,6 +17,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { LandingPageContentComponent } from './landing-page-content/landing-page-content.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { LandingPageContentComponent } from './landing-page-content/landing-page
     NavigationComponent,
     LandingComponent,
     LandingPageContentComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
