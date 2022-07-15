@@ -1,0 +1,19 @@
+
+#ConnectHeading {
+    text-align: center;
+    color: white;
+    font-family:'Edu QLD Beginner', cursive;
+    font-size: x-large;
+}
+
+/* #socialMediaConnections {
+    flex: 1 1 auto;
+    padding: inherit;
+    text-align: left;
+} */
+
+
+
+#imageContainer {
+    display: grid;
+}

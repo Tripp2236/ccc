@@ -19,3 +19,8 @@ html, body {
     font-family: 'Edu QLD Beginner', cursive;
 } */
 
+#mainFooterDivider {
+    color:aqua;
+    width: 100%;
+    margin-left: inherit;
+}

@@ -9,7 +9,7 @@ import { LandingComponent } from './landing/landing.component';
 
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { MatIconModule} from '@angular/material/icon';
-
+import { MatDividerModule } from '@angular/material/divider';
 //
 // AOS ANIMATION IMPORT //
 //
@@ -35,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     MatGridListModule,
     TooltipModule,
-    MatIconModule
+    MatIconModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
