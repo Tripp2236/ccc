@@ -13,26 +13,42 @@
 <!-- Footer Start -->
 
 <!-- Main Footer Container -->
-<mat-grid-list cols="3" rowHeight="1:1" id="mainFooterGridList">
+<mat-grid-list cols="1" rowHeight="14:1" id="mainFooterGridList" fxLayout="row" fxLayoutGroup="20px" fxLayoutAlign="left left">
     <!-- Tile Container for content -->
-        <mat-grid-tile class="container2" id="tile1Content1">
-            <h3  id="ConnectHeading">Connect with Us!</h3>
-            <div class="container" id="imageContainer">
-                <span aria-colspan="1">
-                    <img class="tile-image" src="../../assets/SocialMediaIcons/ccc-facebook.png" alt="facebook" />
-                </span>
-                <span aria-colspan="1">
-                    <img src="../../assets/SocialMediaIcons/ccc-instagram.png" alt="instagram" />
-                </span>
-                <span aria-colspan="1">
-                    <img src="../../assets/SocialMediaIcons/ccc-twitter.png" alt="twitter"  />
-                </span>
-                <span aria-colspan="1">
-                    <img src="../../assets/SocialMediaIcons/ccc-youtube.png" alt="youtube" />
-                </span>
-                <span aria-colspan="1">
-                    <img src="../../assets/SocialMediaIcons/ccc-tiktok.png" alt="tiktok">
-                </span>
+    <div id="footerConnectTitle" fxLayout="row" fxLayoutAlign="center center">
+        <h3 id="ConnectHeading">Connect with Us!</h3>
+    </div>
+        <mat-grid-tile fxLayout="row" fxLayoutAlign="left left">
+            <div class="container" id="imageContainer" fxLayout="row" fxLayoutAlign="left left">
+                <div>
+                    <span aria-colspan="1">
+                        <img class="tile-image" src="../../assets/SocialMediaIcons/ccc-facebook.png" alt="facebook" />
+                    </span>
+                </div>
+
+                <div>
+                    <span aria-colspan="1">
+                        <img src="../../assets/SocialMediaIcons/ccc-instagram.png" alt="instagram" />
+                    </span>
+                </div>
+
+                <div>
+                    <span aria-colspan="1">
+                        <img src="../../assets/SocialMediaIcons/ccc-twitter.png" alt="twitter"  />
+                    </span>
+                </div>
+                
+                <div>
+                    <span aria-colspan="1">
+                        <img src="../../assets/SocialMediaIcons/ccc-youtube.png" alt="youtube" />
+                    </span>
+                </div>
+
+                <div> 
+                    <span aria-colspan="1">
+                        <img src="../../assets/SocialMediaIcons/ccc-tiktok.png" alt="tiktok">
+                    </span>
+                </div>
             </div>
         </mat-grid-tile>
     <!-- End Tile Container for content -->

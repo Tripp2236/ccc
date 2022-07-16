@@ -12,7 +12,7 @@ import { MatIconModule} from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 //
 //Flex Box Import Module//
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 //
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -37,7 +37,8 @@ import { FooterComponent } from './footer/footer.component';
     MatGridListModule,
     TooltipModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
