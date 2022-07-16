@@ -11,7 +11,8 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { MatIconModule} from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 //
-// AOS ANIMATION IMPORT //
+//Flex Box Import Module//
+
 //
 
 import { MatToolbarModule } from '@angular/material/toolbar';

@@ -1,9 +1,10 @@
 
 #ConnectHeading {
-    text-align: center;
+    /* text-align: center; */
     color: white;
     font-family:'Edu QLD Beginner', cursive;
     font-size: x-large;
+    display: block !important;
 }
 
 /* #socialMediaConnections {
@@ -13,7 +14,39 @@
 } */
 
 
+#tile1Content1 {
+    display: block !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    break-before: always;
+    
+}
+
+.container2 :last-child {
+    display: block !important;
+    justify-content: left;
+    text-align: left
+}
 
 #imageContainer {
     display: grid;
+    
 }
+
+.md-mat-grid-tile .mat-grid-tile-content  {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    page-break-before: always;
+    display: block !important;
+    break-before: always;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+ 
