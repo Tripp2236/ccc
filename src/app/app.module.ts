@@ -20,13 +20,18 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { LandingPageContentComponent } from './landing-page-content/landing-page-content.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     LandingComponent,
     LandingPageContentComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +43,11 @@ import { FooterComponent } from './footer/footer.component';
     TooltipModule,
     MatIconModule,
     MatDividerModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    LayoutModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
