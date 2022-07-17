@@ -13,7 +13,7 @@
 <!-- Footer Start -->
 
 <!-- Main Footer Container -->
-<mat-grid-list cols="4" rowHeight="2:1" id="mainFooterGridList" fxLayout="row" fxLayoutGroup="20px" fxLayoutAlign="left left">
+<mat-grid-list cols="4" rowHeight="3:1" id="mainFooterGridList" fxLayout="row" fxLayoutGroup="20px" fxLayoutAlign="left left">
     <!-- Tile Container for Social Media content -->
         <mat-grid-tile id="mainSocialMediaTags" fxLayout="row" fxLayoutAlign="left left">
             <div class="container" id="imageContainer" fxLayout="row">
@@ -73,7 +73,7 @@
             </div>
         </mat-grid-tile>
 
-        <mat-grid-tile>
+        <mat-grid-tile fxLayout="row" fxLayoutAlign="center center">
             <div class="container">
                 <h2 id="joinUs">Join us for Service</h2>
                 <div *ngIf="apiLoaded | async">
@@ -82,5 +82,21 @@
             </div>
         </mat-grid-tile>
     <!-- End Services Content -->
+
+    <!-- Submit Annonymous prayer request -->
+
+        
+        <mat-grid-tile class="prayerRequestForm" fxLayoutAlign="center center">
+            <div class="mainPrayerForm" fxLayout="row" fxLayoutAlign="center center">
+                <h2 class="submitTitle">Submit Prayer Request</h2>
+                    <mat-label class="labelTesting">Testing</mat-label>
+                        <mat-form-field class="inputInformation">
+                            <input class="userInput" matInput type="text" />
+                    </mat-form-field>
+            </div>
+        </mat-grid-tile>
+            
+
+    <!-- End prayer request form submission -->
 </mat-grid-list>
 <!-- Footer End -->

@@ -12,8 +12,13 @@ export class AppComponent {
   title = 'Charity Christain Church';
 
 
-  ngOnInit() {
-    AOS.init();
-  }
+ ngOnInit() {
+   AOS.init();
+ }
 
 }
+
+
+
+
+

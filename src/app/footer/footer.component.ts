@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild, ElementRef, NgZone } from '@angular/core';
+
+
 
 // google maps and http client callbacks///
 ///////////////////////////////////////////
@@ -15,15 +17,20 @@ export class FooterComponent implements OnInit {
 
   apiLoaded: Observable<boolean>;
 
+
   constructor(httpClient: HttpClient) { 
 
-      this.apiLoaded = httpClient.jsonp('https://maps.googleapis.com/maps/api/js?key=AIzaSyBRHNxzfBb_E22Lc0TmJHrf1JtHGmRKUqM', 'callback')
-                        .pipe(map(() => true), catchError( ()=> of(false))
-                        );
+       this.apiLoaded = httpClient.jsonp('https://maps.googleapis.com/maps/api/js?key=AIzaSyBRHNxzfBb_E22Lc0TmJHrf1JtHGmRKUqM', 'callback')
+                         .pipe(map(() => true), catchError( ()=> of(false))
+                         );
 
-   }
+ }
 
-  ngOnInit(): void {
-  }
+ ngOnInit() {
+
+  
+
+}
+
 
 }

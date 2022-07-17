@@ -24,11 +24,16 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from "@angular/material/form-field";
 
-
-//
 // Google Maps API Module
 import { GoogleMapsModule } from '@angular/google-maps';
+//
+
+//
+// AGM core modules
+//import { AgmCoreModule } from '@agm/core';
 //
 
 //
@@ -59,9 +64,11 @@ import { HttpClientJsonpModule } from '@angular/common/http';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
+    MatFormFieldModule,
+    MatInputModule,
     GoogleMapsModule,
     HttpClientModule,
-    HttpClientJsonpModule,
+    HttpClientJsonpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -39,6 +39,11 @@
 }
 
 
+.prayerRequestForm {
+    justify-content: center;
+
+}
+
 .serviceInformation {
     justify-content: center;
     text-align: center;
@@ -46,4 +51,23 @@
 
 .mat-list-base {
     text-align: center;
+}
+
+.inputInformation {
+    background-color: white;
+}
+
+.labelTesting {
+    color: white;
+    font-size: xx-large;
+}
+
+.userInput {
+    color: black;
+    font-size: xx-large;
+}
+
+.submitTitle {
+    color: white;
+    font-size: xx-large;
 }
