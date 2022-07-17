@@ -27,4 +27,23 @@
 }
 
 
+#mainServices {
+    color: cyan;
 
+}
+
+
+.alighnText {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.serviceInformation {
+    justify-content: center;
+    text-align: center;
+}
+
+.mat-list-base {
+    text-align: center;
+}
