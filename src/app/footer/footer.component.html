@@ -72,6 +72,15 @@
                 </div>
             </div>
         </mat-grid-tile>
+
+        <mat-grid-tile>
+            <div class="container">
+                <h2 id="joinUs">Join us for Service</h2>
+                <div *ngIf="apiLoaded | async">
+                    <google-map></google-map>
+                </div>
+            </div>
+        </mat-grid-tile>
     <!-- End Services Content -->
 </mat-grid-list>
 <!-- Footer End -->

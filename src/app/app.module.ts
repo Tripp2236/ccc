@@ -25,6 +25,17 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 
+
+//
+// Google Maps API Module
+import { GoogleMapsModule } from '@angular/google-maps';
+//
+
+//
+// HTTP client and jsonModule
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClientJsonpModule } from '@angular/common/http';
+//
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,7 +58,10 @@ import { MatListModule } from '@angular/material/list';
     LayoutModule,
     MatButtonModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    GoogleMapsModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
