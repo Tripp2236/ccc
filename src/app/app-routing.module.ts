@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HopeProjectComponent } from './hope-project/hope-project.component';
 import { LandingComponent } from './landing/landing.component';
+import { SoupWagonComponent } from './soup-wagon/soup-wagon.component';
+import { TheCommunityComponent } from './the-community/the-community.component';
 
 const routes: Routes = [
   { path: 'landing-page', component: LandingComponent },
-  {path: 'hopeproject', component: HopeProjectComponent},
+  { path: 'hopeproject', component: HopeProjectComponent},
+  { path:'soupwagon', component: SoupWagonComponent },
+  { path: 'thecommunity', component: TheCommunityComponent },
   { path: '', redirectTo: 'landing-page', pathMatch: 'full' }
 ]
 
@@ -18,4 +22,4 @@ const routes: Routes = [
 
 export class AppRoutingModule { }
 
-export const routingComponents = [HopeProjectComponent, LandingComponent]
+export const routingComponents = [HopeProjectComponent, LandingComponent, SoupWagonComponent, TheCommunityComponent]

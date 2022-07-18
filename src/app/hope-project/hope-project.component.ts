@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, Input } from '@angular/core';
+import { Video } from '../model/video';
 @Component({
   selector: 'app-hope-project',
   templateUrl: './hope-project.component.html',
@@ -7,14 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HopeProjectComponent implements OnInit {
 
-  testing: string = 'Hope Project is working!';
+
+
+
+
+  
 
 
   constructor() {
-    console.log(this.testing);
+    
    }
 
   ngOnInit(): void {
+  
   }
 
 }

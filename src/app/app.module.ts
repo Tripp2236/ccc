@@ -15,6 +15,10 @@ import { MatDividerModule } from '@angular/material/divider';
 import { FlexLayoutModule } from '@angular/flex-layout';
 //
 
+//
+import { YouTubePlayerModule } from '@angular/youtube-player';
+//
+
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { LandingPageContentComponent } from './landing-page-content/landing-page-content.component';
@@ -40,6 +44,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
 // HTTP client and jsonModule
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientJsonpModule } from '@angular/common/http';
+
 //
 @NgModule({
   declarations: [
@@ -51,6 +56,7 @@ import { HttpClientJsonpModule } from '@angular/common/http';
     routingComponents
   ],
   imports: [
+    YouTubePlayerModule, 
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
