@@ -40,6 +40,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
 // HTTP client and jsonModule
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientJsonpModule } from '@angular/common/http';
+import { HopeProjectComponent } from './hope-project/hope-project.component';
 //
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { HttpClientJsonpModule } from '@angular/common/http';
     NavigationComponent,
     LandingComponent,
     LandingPageContentComponent,
-    FooterComponent
+    FooterComponent,
+    HopeProjectComponent
   ],
   imports: [
     BrowserModule,
