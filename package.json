@@ -23,6 +23,7 @@
     "@angular/platform-browser": "^14.0.6",
     "@angular/platform-browser-dynamic": "^14.0.6",
     "@angular/router": "^14.0.6",
+    "@angular/youtube-player": "^14.0.5",
     "@types/googlemaps": "^3.43.3",
     "ngx-bootstrap": "^8.0.0",
     "rxjs": "^7.5.6",
