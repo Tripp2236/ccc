@@ -6,7 +6,7 @@
 
 
 #mainNav {
-    text-align: left;
+    text-align: right;
     justify-content: right;
     font-size: xx-large; 
 }
@@ -18,7 +18,7 @@
 
 .flexSpaceBetween {
     justify-content: space-between;
-    flex: 1 2 auto;
+    flex: 1 1 auto;
   }
 
 span:hover {
