@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HopeProjectComponent implements OnInit {
 
-  constructor() { }
+  testing: string = 'Hope Project is working!';
+
+
+  constructor() {
+    console.log(this.testing);
+   }
 
   ngOnInit(): void {
   }

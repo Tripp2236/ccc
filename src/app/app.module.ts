@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LandingComponent } from './landing/landing.component';
@@ -40,7 +40,6 @@ import { GoogleMapsModule } from '@angular/google-maps';
 // HTTP client and jsonModule
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientJsonpModule } from '@angular/common/http';
-import { HopeProjectComponent } from './hope-project/hope-project.component';
 //
 @NgModule({
   declarations: [
@@ -49,7 +48,7 @@ import { HopeProjectComponent } from './hope-project/hope-project.component';
     LandingComponent,
     LandingPageContentComponent,
     FooterComponent,
-    HopeProjectComponent
+    routingComponents
   ],
   imports: [
     BrowserModule,
