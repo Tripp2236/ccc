@@ -26,13 +26,21 @@
 
 h2 {
     color: black;
-    padding-top: 35px;
 }
+
+h3 {
+    color: black;
+}
+
 
 #divider_color {
     color: black;
     background-color: black;
     
+}
+
+#titleHeadings {
+    color: grey;
 }
 /* 
 .mat-divider {

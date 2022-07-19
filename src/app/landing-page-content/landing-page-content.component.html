@@ -48,10 +48,27 @@
        </mat-grid-tile>
     </mat-grid-list> -->
 
+   <!-- // dynamicaly add card information based of ID that is supplied by 
+   // the TS file.
+   // create this card information to be populated on the screen.
+   // align cards correctly on the screen.
+   // each card should increment by 1 until there is no more. -->
+    <mat-card role="group" tabindex="0" *ngFor="let tile of tileHeadings" fxLayout="row" fxLayoutAlign="center center">
+        <div class="container" id="contentCardTitle">
+            <mat-card-title>
+                <h1>{{ tile.text }}</h1>
+            </mat-card-title>
+        </div>
+      
+    </mat-card>
+    <div class="container" id="contentText" *ngFor="let sub of secondaryHeadings; let i = index">
+        <div class="container" id="contentTextInformation">
+            <mat-card-content >
+                <P>{{ sub.text + i}}</P>
+            </mat-card-content>
+        </div>
+    </div>
 
-    <mat-grid-list cols="4" rowHeight="900px">
-        <mat-grid-tile *ngFor="let tile of tileHeadings" [colspan]="tile.cols" [rowspan]="tile.rows">{{tile.text}}</mat-grid-tile>
-    </mat-grid-list>
 <!-- End Grid List Content -->
 
 <!-- /////////////////////////////////////////// -->

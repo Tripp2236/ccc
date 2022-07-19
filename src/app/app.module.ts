@@ -32,7 +32,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from "@angular/material/form-field";
-
+import {MatCardModule} from '@angular/material/card'; 
 // Google Maps API Module
 import { GoogleMapsModule } from '@angular/google-maps';
 //
@@ -78,7 +78,8 @@ import { HttpClientJsonpModule } from '@angular/common/http';
     MatInputModule,
     GoogleMapsModule,
     HttpClientModule,
-    HttpClientJsonpModule
+    HttpClientJsonpModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
