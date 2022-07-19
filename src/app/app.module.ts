@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
@@ -14,6 +14,8 @@ import { MatDividerModule } from '@angular/material/divider';
 //Flex Box Import Module//
 import { FlexLayoutModule } from '@angular/flex-layout';
 //
+
+
 
 //
 import { YouTubePlayerModule } from '@angular/youtube-player';
@@ -54,7 +56,7 @@ import { HttpClientJsonpModule } from '@angular/common/http';
     LandingComponent,
     LandingPageContentComponent,
     FooterComponent,
-    routingComponents
+    routingComponents,
   ],
   imports: [
     YouTubePlayerModule, 

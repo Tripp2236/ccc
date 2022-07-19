@@ -11,15 +11,31 @@
     font-size: large;
     text-align: center;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: grey;
 }
 
 #main_tile {
-    background-color:whitesmoke;
-    text-decoration: white;
+    background-color: black;
+    text-decoration: grey;
+    color:grey;
 }
 
 #div_one {
     background-color: whitesmoke;
 }
+
+h2 {
+    color: black;
+    padding-top: 35px;
+}
+
+#divider_color {
+    color: black;
+    background-color: black;
+    
+}
+/* 
+.mat-divider {
+    background-color: black;
+} */
 

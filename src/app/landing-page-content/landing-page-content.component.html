@@ -2,21 +2,56 @@
 <!-- Grid list for content -->
 
 
-<mat-grid-list id="gird_list_one" color="primary" cols="1" rowHeight="5:1">
-    <div data-aos="fade-left" id="div_one" color="primary" data-aos-duration="3000">
-        <mat-grid-tile color="primary" id="main_tile">
-            <p id="main_intro">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, ex at cursus semper, turpis velit rutrum ipsum, eget vehicula tortor odio non sapien. Suspendisse maximus, risus non euismod cursus, augue justo facilisis elit, non cursus nisl quam sit amet leo. Etiam sollicitudin erat tortor, in congue enim suscipit quis. Suspendisse quis blandit arcu. Vestibulum porta molestie purus, nec elementum elit commodo fermentum. Donec id turpis eu mauris vestibulum lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin arcu tellus, euismod at velit eleifend, laoreet fermentum urna. In bibendum vehicula semper. Quisque luctus nulla ut pretium consequat.
-
-                llis in, aliquam sit amet nisi. Mauris accumsan ex at nisi malesuada, vulputate vestibulum lacus posuere. Nullam id magna non augue sollicitudin scelerisque. Vivamus efficitur eu ex id mattis. Vivamus maximus risus vel quam eleifend tempor. Vestibulum facilisis sit amet massa eu porta. Vivamus in rhoncus diam, at consectetur nulla. Quisque ullamcorper sagittis velit ultricies pretium. Ut erat tellus, rhoncus eu arcu ac, aliquet tempor sem. Fusce in mi eget lacus maximus elementum. Suspendisse potenti. Nam eu felis non libero dictum dictum nec rhoncus massa. Nullam finibus egestas odio cursus tincidunt. 
-            </p>
-                    
-        </mat-grid-tile>
+<!-- <mat-grid-list id="gird_list_one" cols="2" rowHeight="1:1" fxLayoutAlign="center center" fxLayout="row">
+    <div id="div_one" data-aos="fade-left" id="div_one" data-aos-duration="3000">
+                <mat-grid-tile  id="main_tile">
+                    <div id="guided_by_grace_content" fxLayout="row" fxLayoutAlign="center center">
+                        <h2 id="main_intro">Guided by Grace</h2>
+                    </div>
+                </mat-grid-tile>
+                
     </div>
-</mat-grid-list>
+</mat-grid-list> -->
 
 
+<!-- <mat-grid-list cols="2" rowHeight="1:1" fxLayout="row" fxLayoutAlign="center center">
+        <div class="contentContainer">
+           <mat-grid-tile class="containr_content">
+                <div class="tileContent">
+                    <h1 class="guided_by_grace">
+                        Guided By Grace
+                    </h1>
+                    <h3>We openly praise the living God!</h3>
+                    <mat-list>
+                        <mat-list-item>Pslams 100</mat-list-item>
+                        <mat-list-item>Hebrews 13:5</mat-list-item>
+                    </mat-list>
+                    <mat-divider fsLayoutAlight="center center" vertical style="height:100px"></mat-divider>
 
+                </div>
+           </mat-grid-tile>
+        </div>
+
+        <mat-grid-tile class="containr_content">
+            <div class="tileContent">
+                <h1 class="loving_others">
+                    Loving Others:
+                </h1>
+                <h3>We connect with others to Pray, Help and Grow as a community in Christ.</h3>
+                <mat-list>
+                    <mat-list-item>Hohn 13:34-35</mat-list-item>
+                    <mat-list-item>Matthew 5:16</mat-list-item>
+                </mat-list>
+                <mat-divider fsLayoutAlight="center center" vertical style="height:100px"></mat-divider>
+
+            </div>
+       </mat-grid-tile>
+    </mat-grid-list> -->
+
+
+    <mat-grid-list cols="4" rowHeight="900px">
+        <mat-grid-tile *ngFor="let tile of tileHeadings" [colspan]="tile.cols" [rowspan]="tile.rows">{{tile.text}}</mat-grid-tile>
+    </mat-grid-list>
 <!-- End Grid List Content -->
 
 <!-- /////////////////////////////////////////// -->
