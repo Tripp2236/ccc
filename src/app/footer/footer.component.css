@@ -8,7 +8,9 @@
     padding-right: 35px; 
 } */
 
-
+#mainFooterGridList {
+    background-color: whitesmoke;
+}
 .container div * {
     font-family: 'Bebas Neue';
     font-weight: bold;
@@ -35,7 +37,7 @@
 #mainServices {
     font-family: 'Bebas Neue';
     font-weight: bold;
-    color: cyan;
+    color: grey;
 
 }
 

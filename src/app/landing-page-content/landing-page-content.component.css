@@ -1,25 +1,25 @@
 
 #grid_list_one {
-    background-color: black;
+    background-color: whitesmoke;
 
 }
 
 #main_intro {
-    color:white;
+    color:grey;
     font-family: 'Bebas Neue';
     font-weight: bold;
     font-size: large;
     text-align: center;
     justify-content: center;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 #main_tile {
-    background-color: black;
+    background-color:whitesmoke;
     text-decoration: white;
 }
 
 #div_one {
-    background-color: black;
+    background-color: whitesmoke;
 }
 

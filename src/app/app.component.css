@@ -8,12 +8,12 @@ html, body {
 #headingTitle {
 
         text-align: left;
-        color: white;
+        color: grey;
         font-size: 60px;
         padding-bottom: 1rem;
         font-family: 'Bebas Neue';
         font-weight: bold;
-
+        background-color: whitesmoke;
     
 }
 
@@ -23,7 +23,7 @@ html, body {
 } */
 
 #mainFooterDivider {
-    color:aqua;
+    color:whitesmoke;
     width: 100%;
     margin-left: inherit;
 }
