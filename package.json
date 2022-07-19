@@ -36,6 +36,7 @@
     "@angular/compiler-cli": "^14.0.6",
     "@types/aos": "^3.0.4",
     "@types/jasmine": "~4.0.0",
+    "angular-ide": "^0.9.77",
     "aos": "^2.3.4",
     "jasmine-core": "~4.1.0",
     "karma": "~6.3.0",
