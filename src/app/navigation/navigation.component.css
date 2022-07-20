@@ -19,22 +19,16 @@
 }
 
 a {
-    color: lightsteelblue;
-    appearance: none;
+    color: black;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
 }
 
 .flexSpaceBetween {
     justify-content: space-between;
     flex: 1 1 auto;
   }
-
-span:hover {
-    text-decoration: none;
-    border-bottom: 1px solid rebeccapurple;
-    transition: 400ms;
-    cursor: pointer;
-
-}
 
 
 

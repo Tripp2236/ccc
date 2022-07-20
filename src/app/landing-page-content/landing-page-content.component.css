@@ -25,8 +25,9 @@
 }
 
 h1{
+    font-size: 40px;
     font-family: 'Bebas Neue', cursive;
-    color: grey;
+    color: rgb(83, 104, 120);
 }
 h2 {
     color: black;
@@ -37,8 +38,9 @@ h3 {
 }
 
 h4 {
+    font-size: 22px;
     font-family: 'Bebas Neue', cursive;
-    color: grey;
+    color: rgb(65, 74, 76);
 }
 
 #blockHeading {

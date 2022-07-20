@@ -1,10 +1,19 @@
 <h1 data-aos="fade-down" data-aos-duration="3000"  id="headingTitle">Charity Christian Church</h1>
 <app-navigation></app-navigation>
 
-<router-outlet></router-outlet>
+<div id="main_router_outlet_container" class="container">
+    <div id="into_container_router" class="container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
 
 <mat-divider id="mainFooterDivider" [inset]="true"></mat-divider>
-<app-footer></app-footer>
+
+<div id="footerContainer" class="container">
+    <div id="introContainer" class="container">
+        <app-footer></app-footer>
+    </div>
+</div>
   
 
 <!-- 

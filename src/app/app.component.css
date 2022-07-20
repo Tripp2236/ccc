@@ -22,8 +22,18 @@ html, body {
     font-family: 'Edu QLD Beginner', cursive;
 } */
 
+#main_router_outlet_container {
+    padding: 3rem;
+    
+}
+
 #mainFooterDivider {
     color:black;
     width: 100%;
     margin-left: inherit;
+}
+
+#footerContainer{
+    height: 350px;
+    width: auto;
 }

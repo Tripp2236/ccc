@@ -8,6 +8,16 @@
     padding-right: 35px; 
 } */
 
+h2 {
+    color: rgb(83, 104, 120);
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(65, 74, 76); 
+    font-size: 25px;
+}
+
 #mainFooterGridList {
     background-color: whitesmoke;
 }
