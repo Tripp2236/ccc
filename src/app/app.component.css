@@ -6,15 +6,13 @@ html, body {
 }
 
 #headingTitle {
-
         text-align: left;
-        color: grey;
+        color: rgb(83, 104, 120);
         font-size: 60px;
         padding-bottom: 1rem;
         font-family: 'Bebas Neue';
         font-weight: bold;
         background-color: whitesmoke;
-    
 }
 
 /* #mainHeading {

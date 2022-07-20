@@ -14,12 +14,12 @@
     text-align: right;
     justify-content: right;
     font-size: xx-large; 
-    color:azure;
+    
     text-decoration: none;
 }
 
 a {
-    color: black;
+    color: rgb(65, 74, 76);
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;

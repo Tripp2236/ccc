@@ -2,19 +2,33 @@
 
 <!-- Video Grid -->
 
-<mat-grid-list id="mainContainer" cols="2" rowHeight="1:1">
-        <mat-grid-tile colspan="2">
-                <img  id="mainVideoLandingPage" src="../../assets/churchvideo.webp" />
-        </mat-grid-tile>
-</mat-grid-list>
+<div id="MainVideoContainer" class="container">
+        <div id="housingVideoContainer" class="container">
+                <div id="videoContainer" class="container">
+                        <mat-grid-list id="mainContainer" cols="2" rowHeight="1:1">
+                                <mat-grid-tile colspan="2">
+                                        <img  id="mainVideoLandingPage" src="../../assets/churchvideo.webp" />
+                                </mat-grid-tile>
+                        </mat-grid-list>
+                </div>
+        </div>
+</div>
+
 
 <!-- End Video grid -->
 
-<div class="container">
-        <div class="container">
-                <app-landing-page-content></app-landing-page-content>
+<div id="MainContentContainer" class="container">
+        <div id="housingContentingContainer" class="container">
+                <div id="mainContentContainer" class="container">
+                        <div class="container">
+                                <div class="container">
+                                        <app-landing-page-content></app-landing-page-content>
+                                </div>
+                        </div>
+                </div>
         </div>
 </div>
+
 
 <!-- ///////////////////////////////// -->
 
