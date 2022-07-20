@@ -5,9 +5,3 @@ export interface Tile {
     text: string;
 }
 
-export interface subHeadings {
-    id: number;
-    text: string;
-    cols: number;
-    rows: number;
-}

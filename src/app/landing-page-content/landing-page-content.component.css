@@ -24,6 +24,10 @@
     background-color: whitesmoke;
 }
 
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: grey;
+}
 h2 {
     color: black;
 }
@@ -32,6 +36,14 @@ h3 {
     color: black;
 }
 
+h4 {
+    font-family: 'Bebas Neue', cursive;
+    color: grey;
+}
+
+#blockHeading {
+    font-size: 50px;
+}
 
 #divider_color {
     color: black;
