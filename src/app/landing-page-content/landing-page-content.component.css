@@ -4,6 +4,12 @@
 
 }
 
+#styleContainerDivider {
+    width: auto;
+    height: 3px;
+    background-color: slategray;
+}
+
 #main_intro {
     color:grey;
     font-family: 'Bebas Neue';
@@ -61,3 +67,6 @@ h4 {
     background-color: black;
 } */
 
+#cardContent {
+    padding: 2rem;
+}

@@ -1,75 +1,6 @@
 
 <!-- Grid list for content -->
 
-
-<!-- <mat-grid-list id="gird_list_one" cols="2" rowHeight="1:1" fxLayoutAlign="center center" fxLayout="row">
-    <div id="div_one" data-aos="fade-left" id="div_one" data-aos-duration="3000">
-                <mat-grid-tile  id="main_tile">
-                    <div id="guided_by_grace_content" fxLayout="row" fxLayoutAlign="center center">
-                        <h2 id="main_intro">Guided by Grace</h2>
-                    </div>
-                </mat-grid-tile>
-                
-    </div>
-</mat-grid-list> -->
-
-
-<!-- <mat-grid-list cols="2" rowHeight="1:1" fxLayout="row" fxLayoutAlign="center center">
-        <div class="contentContainer">
-           <mat-grid-tile class="containr_content">
-                <div class="tileContent">
-                    <h1 class="guided_by_grace">
-                        Guided By Grace
-                    </h1>
-                    <h3>We openly praise the living God!</h3>
-                    <mat-list>
-                        <mat-list-item>Pslams 100</mat-list-item>
-                        <mat-list-item>Hebrews 13:5</mat-list-item>
-                    </mat-list>
-                    <mat-divider fsLayoutAlight="center center" vertical style="height:100px"></mat-divider>
-
-                </div>
-           </mat-grid-tile>
-        </div>
-
-        <mat-grid-tile class="containr_content">
-            <div class="tileContent">
-                <h1 class="loving_others">
-                    Loving Others:
-                </h1>
-                <h3>We connect with others to Pray, Help and Grow as a community in Christ.</h3>
-                <mat-list>
-                    <mat-list-item>Hohn 13:34-35</mat-list-item>
-                    <mat-list-item>Matthew 5:16</mat-list-item>
-                </mat-list>
-                <mat-divider fsLayoutAlight="center center" vertical style="height:100px"></mat-divider>
-
-            </div>
-       </mat-grid-tile>
-    </mat-grid-list> -->
-
-   <!-- // dynamicaly add card information based of ID that is supplied by 
-   // the TS file.
-   // create this card information to be populated on the screen.
-   // align cards correctly on the screen.
-   // each card should increment by 1 until there is no more. -->
-    
-   
-   <!-- <mat-card role="group" tabindex="0" *ngFor="let tile of tileHeadings" fxLayout="row" fxLayoutAlign="center center">
-        <div class="container" id="contentCardTitle">
-            <mat-card-title>
-                <h1>{{ tile.text }}</h1>
-            </mat-card-title>
-        </div>
-    </mat-card>
-    <div class="container" id="contentText" *ngFor="let sub of secondaryHeadings; let i = index">
-        <div class="container" id="contentTextInformation">
-            <mat-card-content >
-                <P>{{ sub.info + i}}</P>
-            </mat-card-content>
-        </div>
-    </div> -->
-
     <div fxLayoutAlign="center center" class="container">
         <div id="titleHeadingContainer" class="container">
             <div class="container" id="mainheadingforpassion">
@@ -79,7 +10,7 @@
             </div>
         </div>
     </div>
-
+    <div data-aos="flip-up" data-aos-duration="3000">
     <div class="container" id="MainContentInformationAndHeadings">
         <mat-grid-list fxLayuout="row" fxLayoutAlign="center center" class="container" id="subInformation" cols="2" rowHeight="500">
             <div class="container" id="cadLayout_subInformation">
@@ -134,78 +65,79 @@
                             </mat-card>
                         </div>                        
                     </mat-grid-tile>
-
-                    <!-- <mat-grid-tile>
-                        <div class="container" id="mainCardTile">
-                            <mat-card class="container" id="mainCard" role="group">
-                                <div class="container">
-                                    <mat-card-title>
-                                        <h1 class="container" fxLayout="row" fxLayoutAlign="center center">Our Mission</h1>
-                                    </mat-card-title>
-                                </div>
-                                <div class="container">
-                                    <mat-card-content>
-                                        <div id="secondaryContentContainer" class="container">
-                                            <div class="main_secondary_content_container_text">
-                                                <h4 class="container">
-                                                    We are commissioned to share the gospel of Jesus Christ with our neighbors. We are committed to preaching and teaching the word of God. We are concerned about seeing believers grow into passionate followers of Jesus. We are compelled by the love of Christ to give ourselves and our resources to reach out to our community and world with the gospel. We are compassionate towards the suffering and those in need.
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </mat-card-content>
-                                </div>
-                            </mat-card>
-                        </div>                        
-                    </mat-grid-tile> -->
-
-                    <!-- <mat-grid-tile>
-                        <div class="container" id="mainCardTile">
-                            <mat-card class="container" id="mainCard" role="group">
-                                <div class="container">
-                                    <mat-card-title>
-                                        <h1 class="container" fxLayout="row" fxLayoutAlign="center center">Making Disciples of Christ </h1>
-                                    </mat-card-title>
-                                </div>
-                                <div class="container">
-                                    <mat-card-content>
-                                        <div id="secondaryContentContainer" class="container">
-                                            <div class="main_secondary_content_container_text">
-                                                <h4 class="container">
-                                                    2 Timothy 2:2, Matthew 28:19-20; We teach the word, we do the word, we share the word and all we have. We serve all people.
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </mat-card-content>
-                                </div>
-                            </mat-card> -->
-                        <!-- </div>                        
-                    </mat-grid-tile> -->
                 </div>
             </div>
         </mat-grid-list>
     </div>
-    
+                                                    <div id="matDividerContainer" class="container">
+                                                        <div id="interiorDivider" class="container">
+                                                            <mat-divider class="container"></mat-divider>
+                                                        </div>
+                                                    </div>
 
-<!-- End Grid List Content -->
+  
 
-<!-- /////////////////////////////////////////// -->
 
-<!-- <div *ngIf="sub.id === sub.id.info">
-    <div #thenBlock>
-        <p>information is repeating and not working</p>
-    </div>
 
-    <div #elseBlock>
-         <p class="container">
-             {{ sub.info }}
-          </p>
+
+
+  <div class="container" id="MainContentInformationAndHeadings">
+    <mat-grid-list fxLayuout="row" fxLayoutAlign="center center" class="container" id="subInformation" cols="2" rowHeight="500">
+        <div class="container" id="cadLayout_subInformation">
+            <div class="container" id="main_subInformationCards">
+                <mat-divider vertical style="height:400px"></mat-divider>
+                <mat-grid-tile>
+                    <div class="container" id="mainCardTile">
+                        <mat-card class="container" id="mainCard" role="group">
+                            <div class="container">
+                                <mat-card-title>
+                                    <h1 class="container" fxLayout="row" fxLayoutAlign="center center">
+                                        Missionarys
+                                    </h1>
+                                </mat-card-title>
+                            </div>
+                            <div class="container">
+                                <mat-card-content>
+                                    <div id="secondaryContentContainer" class="container">
+                                        <div class="main_secondary_content_container_text">
+                                            <h4 class="container">
+                                                We are a body of believers that's committed to the great commission and to supporting missions that are preaching the Gospel of Jesus at home and in other countries. Different members of our faith family have been to several different missions and countries from New York City to West Virginia, Brazil, China, and Guatemala, we believe in global disciple making. 
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </div>
+                        </mat-card>
+                    </div>                        
+                </mat-grid-tile>
+
+                <mat-grid-tile>
+                    <div class="container" id="mainCardTile1">
+                        <mat-card class="container" id="mainCard1" role="group">
+                            <div class="container">
+                                <mat-card-title>
+                                    <h1 class="container" fxLayout="row" fxLayoutAlign="center center">
+                                        Worship
+                                    </h1>
+                                </mat-card-title>
+                            </div>
+                            <div class="container">
+                                <mat-card-content>
+                                    <div id="secondaryContentContainer1" class="container">
+                                        <div class="main_secondary_content_container_text1">
+                                            <h4 class="container">
+                                                Wednesdays 7PM / Sundays 10AM
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </div>
+                        </mat-card>
+                    </div>                        
+                </mat-grid-tile>
+            </div>
         </div>
-</div> -->
-
-
-<!-- Our Mission
-We are commissioned to share the gospel of Jesus Christ with our neighbors. We are committed to preaching and teaching the word of God. We are concerned about seeing believers grow into passionate followers of Jesus. We are compelled by the love of Christ to give ourselves and our resources to reach out to our community and world with the gospel. We are compassionate towards the suffering and those in need; And to share the LOVE and Grace of Jesus through the cross and see lives transformed by the POWER of God. To know there is life and peace in a world full of chaos. 
-
-Making Disciples of Christ 
-2 Timothy 2:2, Matthew 28:19-20; We teach the word, we do the word, we share the word and all we have. We serve all people. We reach into our community and share the life-giving truths of the BIBLE with a generation that does not know God, but longs to be known by Him 
- -->
+    </mat-grid-list>
+</div>
+</div>
+<!-- End Landing Page Content. -->
