@@ -1,3 +1,35 @@
 p {
     color: white;
 }
+
+#mainContainer_soupWagon {
+    padding-top: 1.5rem;
+}
+
+
+.container {
+    justify-content: center;
+    /* position: fixed; */
+}
+
+#mainVideoLandingPage_soupWagon {
+    /* padding-left: 250px; */
+    padding-top: 2rem;
+    justify-content: center;
+    background-color: whitesmoke;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 10%;
+    left: 50%;
+    /* position: relative; */
+
+    /* position: absolute; */
+    /* min-height: 100%;  */
+    
+    /* max-width: min-content;
+    max-height: min-content;
+    top: 50%;
+    transform: scale(0.5) translate(-100%, -100%);
+    z-index: 0; */
+}
